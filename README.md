@@ -1,1 +1,1 @@
-# obsidian-ai-setup
+# Obsidian AI Setup
