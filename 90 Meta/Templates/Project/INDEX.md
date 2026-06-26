@@ -13,7 +13,9 @@ What does "done" look like for this project, and by when?
 
 ## Structure
 
-- `CONTEXT.md` - running log of context from past interactions.
+- `<project name>.md` - the note to link to from elsewhere in the vault.
+- `CONTEXT.md` - current-state snapshot.
+- `LOG.md` - detailed append-only history.
 - `Meeting Notes/` -
 - `Tasks/` -
 

@@ -26,8 +26,10 @@ are plain notes tagged `moc`, not a separate folder.
 ├── 10 Journals/         # Daily/weekly logs.
 ├── 20 Projects/         # Active, has a deadline/outcome. Self-contained per project
 │   └── <project>/       # subfolder - the only folder that nests further.
+│       ├── <project>.md # link target for the rest of the vault.
 │       ├── INDEX.md     # project structure - see manage-project skill.
-│       └── CONTEXT.md   # running log, appended after each interaction.
+│       ├── CONTEXT.md   # short current-state snapshot, overwritten each time.
+│       └── LOG.md        # thorough append-only history.
 ├── 30 Areas/            # Ongoing responsibilities, no end date.
 ├── 40 Resources/        # Topic reference material, no immediate action.
 ├── 50 Literature/       # Book/article/podcast notes.
@@ -80,7 +82,9 @@ multiple skills for bigger workflows rather than writing one giant skill.
 
 - `example-skill/` - inbox triage.
 - `create-moc/` - creating/updating Maps of Content.
-- `manage-project/` - the `INDEX.md`/`CONTEXT.md` project convention.
+- `manage-project/` - the project-note/`INDEX.md`/`CONTEXT.md`/`LOG.md`
+  convention.
+- `frontmatter/` - canonical YAML frontmatter fields per note type.
 - `obsidian-markdown/`, `obsidian-bases/`, `obsidian-cli/`, `json-canvas/`,
   `defuddle/` - vendored from
   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) (MIT,

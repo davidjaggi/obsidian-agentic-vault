@@ -13,10 +13,11 @@ notes, not code.
   - `20 Projects/` - active, has a deadline/outcome. Each project is
     **self-contained**: give it its own subfolder holding all of its
     notes, drafts, and files rather than scattering them across other
-    top-level folders. Every project folder contains `INDEX.md` (its
-    structure) and `CONTEXT.md` (running log of past interactions,
-    appended after every interaction with the project) - see
-    `90 Meta/Skills/manage-project/SKILL.md`.
+    top-level folders. Every project folder contains a `<project name>.md`
+    note (the link target for the rest of the vault), `INDEX.md` (its
+    structure), `CONTEXT.md` (short current-state snapshot, overwritten
+    after every interaction), and `LOG.md` (thorough append-only history)
+    - see `90 Meta/Skills/manage-project/SKILL.md`.
   - `30 Areas/` - ongoing responsibilities, no end date.
   - `40 Resources/` - topic reference material, no immediate action.
   - `50 Literature/` - book/article/podcast notes.
@@ -28,10 +29,14 @@ notes, not code.
   folders flat.
 - MOCs are regular notes in `60 Notes/` tagged `moc` in frontmatter, not a
   separate folder. See `90 Meta/Skills/create-moc/SKILL.md`.
-- All-caps file names (e.g. `INDEX.md`, `CONTEXT.md`) mark load-bearing
-  files maintained by a skill - read the matching skill before editing
-  one, and don't rename or all-caps a file unless a skill says to.
+- All-caps file names (e.g. `INDEX.md`, `CONTEXT.md`, `LOG.md`) mark
+  load-bearing files maintained by a skill - read the matching skill
+  before editing one, and don't rename or all-caps a file unless a skill
+  says to.
 - New permanent notes use `90 Meta/Templates/note.md`. Daily notes use
   `90 Meta/Templates/daily.md`.
+- Frontmatter fields per note type are defined in
+  `90 Meta/Skills/frontmatter/SKILL.md` - use it instead of inventing
+  keys.
 - Do not modify `.obsidian/` config unless explicitly asked.
 - Keep notes in the user's own voice/words; don't pad with filler.

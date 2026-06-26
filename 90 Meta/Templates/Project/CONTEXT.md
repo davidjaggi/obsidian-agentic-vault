@@ -6,10 +6,17 @@ tags: [project-context]
 
 # Context
 
-Running log of what happened in this project, most recent entry on top.
-Updated after every working session/interaction - don't rewrite history,
-append.
+Short snapshot of where this project stands right now. Overwrite this
+file after every interaction - it is not a history, that's `LOG.md`. Keep
+it to a few lines: enough for an agent to pick the project up cold.
 
-## {{date}}
+## Status
 
--
+
+
+## Next step
+
+
+
+## Open questions
+
