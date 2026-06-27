@@ -20,13 +20,16 @@ notes, not code.
     - see `90 Meta/Skills/manage-project/SKILL.md`.
   - `30 Areas/` - ongoing responsibilities, no end date.
   - `40 Resources/` - topic reference material, no immediate action.
+    `40 Resources/Voicenotes/` is the sync target for the Voicenotes.ai
+    extension - an exception landing zone for capture, not a final home;
+    triage per `90 Meta/Skills/process-voicenotes/SKILL.md`.
   - `50 Literature/` - book/article/podcast notes.
   - `60 Notes/` - permanent, atomic notes in your own words.
   - `70 Bases/` - Obsidian Bases / databases.
   - `99 Archive/` - inactive items, mirrored by category
     (Projects/Areas/Resources/Literature).
-- Other than `20 Projects/`, do not create new subfolders - keep these
-  folders flat.
+- Other than `20 Projects/` and `40 Resources/Voicenotes/`, do not create
+  new subfolders - keep these folders flat.
 - MOCs are regular notes in `60 Notes/` tagged `moc` in frontmatter, not a
   separate folder. See `90 Meta/Skills/create-moc/SKILL.md`.
 - All-caps file names (e.g. `INDEX.md`, `CONTEXT.md`, `LOG.md`) mark

@@ -15,8 +15,10 @@ The folder layout follows Tiago Forte's **PARA** method (Projects, Areas,
 Resources, Archive) from Building a Second Brain, numbered by
 actionability. Folders are kept flat — `20 Projects/` is the only place
 that gets per-item subfolders, since a project is self-contained (notes,
-drafts, and files for one project live together). MOCs (Maps of Content)
-are plain notes tagged `moc`, not a separate folder.
+drafts, and files for one project live together). The one other
+exception is `40 Resources/Voicenotes/`, a fixed sync target for the
+Voicenotes.ai extension. MOCs (Maps of Content) are plain notes tagged
+`moc`, not a separate folder.
 
 ## Structure
 
@@ -32,6 +34,7 @@ are plain notes tagged `moc`, not a separate folder.
 │       └── LOG.md       # thorough append-only history.
 ├── 30 Areas/            # Ongoing responsibilities, no end date.
 ├── 40 Resources/        # Topic reference material, no immediate action.
+│   └── Voicenotes/      # Sync target for the Voicenotes.ai extension - triage like Inbox.
 ├── 50 Literature/       # Book/article/podcast notes.
 ├── 60 Notes/            # Permanent, atomic notes - includes MOCs (tag: moc).
 ├── 70 Bases/            # Obsidian Bases / databases.
@@ -82,6 +85,7 @@ multiple skills for bigger workflows rather than writing one giant skill.
 ## Bundled skills
 
 - `example-skill/` - inbox triage.
+- `process-voicenotes/` - triaging transcripts synced by Voicenotes.ai.
 - `create-moc/` - creating/updating Maps of Content.
 - `manage-project/` - the project-note/`INDEX.md`/`CONTEXT.md`/`LOG.md`
   convention.
