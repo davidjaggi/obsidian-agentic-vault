@@ -50,11 +50,22 @@ are plain notes tagged `moc`, not a separate folder.
 └── .perplexity/         # Perplexity Spaces instructions.
 ```
 
+## Community plugins used
+
+None are bundled in this repo (install via Obsidian's Community Plugins
+browser) - this vault is set up with:
+
+- **Copilot** - AI chat/assistant against vault content.
+- **Tasks** - task management via `#task` in note bodies.
+- **TaskNotes** - note-based task/calendar management.
+- **ZotFlow** - Zotero integration for literature notes.
+- **Templater** - powers the templates under `90 Meta/Templates/`.
+
 ## Setting up your own vault
 
 1. Use this repo as a template (or copy its contents into your existing vault).
 2. Open the folder in Obsidian and enable the community plugins you use
-   (Templater, Dataview, etc. - none are bundled, install as needed).
+   (see Community plugins used above - none are bundled, install as needed).
 3. Add/edit skills under `90 Meta/Skills/` - see
    `90 Meta/Skills/example-skill/SKILL.md` for the format.
 4. Point each agent at the vault root:
