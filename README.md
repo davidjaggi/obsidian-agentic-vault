@@ -60,6 +60,8 @@ browser) - this vault is set up with:
 - **TaskNotes** - note-based task/calendar management.
 - **ZotFlow** - Zotero integration for literature notes.
 - **Templater** - powers the templates under `90 Meta/Templates/`.
+- **Voicenotes** - syncs Voicenotes recordings/transcripts into the vault.
+  In the plugin settings, set the sync directory to `40 Resources/Voicenotes`.
 
 ## Setting up your own vault
 
