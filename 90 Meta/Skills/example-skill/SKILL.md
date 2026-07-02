@@ -10,8 +10,8 @@ triaged.
      subfolder if it will accumulate supporting files).
    - An ongoing responsibility, no end date → `30 Areas/`.
    - Reference material with no immediate action → `40 Resources/`.
-   - Notes on a book/article/podcast → `50 Literature/`.
-   - A distilled idea in your own words → `60 Notes/`, using
+   - Notes on a book/article/podcast → `40 Resources/Literature/`.
+   - A distilled idea in your own words → `50 Notes/`, using
      `90 Meta/Templates/note.md`.
 3. Link the new note to at least one related existing note.
 4. Delete the original file from `00 Inbox/`.

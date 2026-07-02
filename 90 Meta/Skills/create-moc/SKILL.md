@@ -5,12 +5,12 @@
 asks for a MOC.
 
 **Steps**:
-1. Search `60 Notes/` for an existing note tagged `moc` on the topic before
+1. Search `50 Notes/` for an existing note tagged `moc` on the topic before
    creating a new one - update it instead of duplicating. MOCs are
    identified by the `moc` tag in frontmatter, not by folder location -
-   they live alongside regular notes in `60 Notes/`.
+   they live alongside regular notes in `50 Notes/`.
 2. Create the MOC using `90 Meta/Templates/moc.md`, named after the topic
-   (e.g. `60 Notes/Obsidian Setup.md`), keeping the `tags: [moc]`
+   (e.g. `50 Notes/Obsidian Setup.md`), keeping the `tags: [moc]`
    frontmatter.
 3. Link out to relevant notes under `## Notes` and `## Literature` - do not
    copy content into the MOC, only link and add a one-line description per

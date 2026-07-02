@@ -13,7 +13,7 @@ Dataview queries stay reliable across the vault.
 
 ## Per note type
 
-**Permanent note** (`60 Notes/`, `90 Meta/Templates/note.md`)
+**Permanent note** (`50 Notes/`, `90 Meta/Templates/note.md`)
 | Field | Type | Notes |
 |---|---|---|
 | `title` | string | |
@@ -26,7 +26,7 @@ Dataview queries stay reliable across the vault.
 | `date` | date | used instead of `created`/`title` |
 | `tags` | list | always includes `daily` |
 
-**Literature note** (`50 Literature/`)
+**Literature note** (`40 Resources/Literature/`)
 | Field | Type | Notes |
 |---|---|---|
 | `title` | string | |
