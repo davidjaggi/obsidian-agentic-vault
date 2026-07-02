@@ -32,7 +32,7 @@ are plain notes tagged `moc`, not a separate folder.
 │       └── LOG.md       # thorough append-only history.
 ├── 30 Areas/            # Ongoing responsibilities, no end date.
 ├── 40 Resources/        # Topic reference material, no immediate action.
-│   └── Literature/      # Book/article/podcast notes.
+│   └── Literature/      # Literature source notes from ZotFlow.
 ├── 50 Notes/            # Permanent, atomic notes - includes MOCs (tag: moc).
 ├── 60 Bases/            # Obsidian Bases / databases.
 ├── 90 Meta/
