@@ -55,7 +55,8 @@ are plain notes tagged `moc`, not a separate folder.
 None are bundled in this repo (install via Obsidian's Community Plugins
 browser) - this vault is set up with:
 
-- **Copilot** - AI chat/assistant against vault content.
+- **Copilot** - AI chat/assistant against vault content. In the plugin
+  settings, set the Memory Folder Name to `40 Resources/Copilot Memory`.
 - **Tasks** - task management via `#task` in note bodies.
 - **TaskNotes** - note-based task/calendar management.
 - **ZotFlow** - Zotero integration for literature notes.
