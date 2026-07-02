@@ -19,15 +19,15 @@ notes, not code.
     after every interaction), and `LOG.md` (thorough append-only history)
     - see `90 Meta/Skills/manage-project/SKILL.md`.
   - `30 Areas/` - ongoing responsibilities, no end date.
-  - `40 Resources/` - topic reference material, no immediate action.
-  - `50 Literature/` - book/article/podcast notes.
-  - `60 Notes/` - permanent, atomic notes in your own words.
-  - `70 Bases/` - Obsidian Bases / databases.
+  - `40 Resources/` - topic reference material, no immediate action;
+    includes a `Literature/` subfolder for book/article/podcast notes.
+  - `50 Notes/` - permanent, atomic notes in your own words.
+  - `60 Bases/` - Obsidian Bases / databases.
   - `99 Archive/` - inactive items, mirrored by category
     (Projects/Areas/Resources/Literature).
 - Other than `20 Projects/`, do not create new subfolders - keep these
   folders flat.
-- MOCs are regular notes in `60 Notes/` tagged `moc` in frontmatter, not a
+- MOCs are regular notes in `50 Notes/` tagged `moc` in frontmatter, not a
   separate folder. See `90 Meta/Skills/create-moc/SKILL.md`.
 - All-caps file names (e.g. `INDEX.md`, `CONTEXT.md`, `LOG.md`) mark
   load-bearing files maintained by a skill - read the matching skill
