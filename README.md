@@ -1,5 +1,4 @@
-# Obsidian AI Setup
-
+# Obsidian Agentic Vault
 A reproducible Obsidian vault template for working with AI coding/writing
 agents (Claude Code, Codex, Perplexity, Antigravity, ...) directly against
 your notes.
