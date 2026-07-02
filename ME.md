@@ -1,0 +1,2 @@
+# Obsidian AI Vault
+
