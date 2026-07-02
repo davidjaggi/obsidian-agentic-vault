@@ -36,7 +36,11 @@ are plain notes tagged `moc`, not a separate folder.
 ├── 60 Notes/            # Permanent, atomic notes - includes MOCs (tag: moc).
 ├── 70 Bases/            # Obsidian Bases / databases.
 ├── 90 Meta/
-│   ├── Skills/          # One skill per subfolder. The shared "brain" all agents read.
+│   ├── Copilot/          # Copilot plugin data.
+│   │   ├── Copilot Custom Prompts/
+│   │   └── System Prompts/
+│   ├── Skills/           # One skill per subfolder. The shared "brain" all agents read.
+│   ├── Tasks/            # TaskNotes plugin data (may move to 40 Resources later).
 │   └── Templates/       # Obsidian note templates (Templater/core Templates plugin).
 │       └── Project/     # Templates for <project>.md, INDEX.md, CONTEXT.md, LOG.md.
 ├── 99 Archive/          # Inactive items, mirrored by category.
