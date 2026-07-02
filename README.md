@@ -56,9 +56,12 @@ None are bundled in this repo (install via Obsidian's Community Plugins
 browser) - this vault is set up with:
 
 - **Copilot** - AI chat/assistant against vault content.
-- **Tasks** - task management via `#task` in note bodies.
-- **TaskNotes** - note-based task/calendar management.
-- **ZotFlow** - Zotero integration for literature notes.
+- **[Tasks](https://publish.obsidian.md/tasks/Introduction)** - task
+  management via `#task` in note bodies.
+- **[TaskNotes](https://tasknotes.dev/)** - note-based task/calendar
+  management.
+- **[ZotFlow](https://zotflow.peterduan.dev/)** - Zotero integration for
+  literature notes.
 - **Templater** - powers the templates under `90 Meta/Templates/`.
 
 ## Setting up your own vault
