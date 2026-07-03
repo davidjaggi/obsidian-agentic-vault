@@ -1,5 +1,6 @@
 ---
 title: {{title}}
+type: project-index
 created: {{date}}
 status: active
 tags: [project]

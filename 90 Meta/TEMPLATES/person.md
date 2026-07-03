@@ -1,6 +1,6 @@
 ---
 title: {{title}}
-type: note
+type: person
 created: {{date}}
 tags: []
 ---

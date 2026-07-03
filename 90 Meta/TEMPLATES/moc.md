@@ -1,5 +1,6 @@
 ---
 title: {{title}}
+type: note
 created: {{date}}
 tags: [moc]
 ---
