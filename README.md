@@ -51,23 +51,28 @@ are plain notes tagged `moc`, not a separate folder.
 
 ## Community plugins used
 
-None are bundled in this repo (install via Obsidian's Community Plugins
-browser) - this vault is set up with:
+Bundled under `.obsidian/plugins/` (enabled via `community-plugins.json`):
+
+- **[Tasks](https://publish.obsidian.md/tasks/Introduction)**
+  (`obsidian-tasks-plugin`) - task management via `#task` in note bodies.
+- **[ZotFlow](https://zotflow.peterduan.dev/)** (`zotflow`) - Zotero
+  integration for literature notes.
+- **[Hidden Folders Access](https://github.com/dsebastien/hidden-folders-access)**
+  (`hidden-folders-access`) - indexes hidden root-level folders (e.g.
+  `.claude`) so they appear in the file tree, metadata cache, and Bases.
+
+Not bundled (install via Obsidian's Community Plugins browser if you use
+them):
 
 - **Copilot** - AI chat/assistant against vault content.
-- **[Tasks](https://publish.obsidian.md/tasks/Introduction)** - task
-  management via `#task` in note bodies.
-- **[TaskNotes](https://tasknotes.dev/)** - note-based task/calendar
-  management.
-- **[ZotFlow](https://zotflow.peterduan.dev/)** - Zotero integration for
-  literature notes.
 - **Templater** - powers the templates under `90 Meta/Templates/`.
 
 ## Setting up your own vault
 
 1. Use this repo as a template (or copy its contents into your existing vault).
 2. Open the folder in Obsidian and enable the community plugins you use
-   (see Community plugins used above - none are bundled, install as needed).
+   (see Community plugins used above - the bundled ones just need enabling,
+   the rest install as needed).
 3. Add/edit skills under `90 Meta/Skills/` - see
    `90 Meta/Skills/example-skill/SKILL.md` for the format.
 4. Point each agent at the vault root:
