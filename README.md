@@ -57,7 +57,7 @@ Bundled under `.obsidian/plugins/` (enabled via `community-plugins.json`):
   (`obsidian-tasks-plugin`) - task management via `#task` in note bodies.
 - **[ZotFlow](https://zotflow.peterduan.dev/)** (`zotflow`) - Zotero
   integration for literature notes.
-- **[Hidden Folders Access]([https://github.com/dsebastien/hidden-folders-access](https://github.com/dsebastien/obsidian-hidden-folders-access))**
+- **[Hidden Folders Access](https://github.com/dsebastien/obsidian-hidden-folders-access)**
   (`hidden-folders-access`) - indexes hidden root-level folders (e.g.
   `.claude`) so they appear in the file tree, metadata cache, and Bases.
 
