@@ -1,5 +1,6 @@
 ---
 title: {{title}} - Log
+type: project-log
 created: {{date}}
 tags: [project-log]
 ---

@@ -99,6 +99,8 @@ multiple skills for bigger workflows rather than writing one giant skill.
 - `manage-project/` - the project-note/`INDEX.md`/`CONTEXT.md`/`LOG.md`
   convention.
 - `frontmatter/` - canonical YAML frontmatter fields per note type.
+- `vault-lint/` - periodic health-check for broken links, orphan notes,
+  missing frontmatter, and stale project context.
 - `obsidian-markdown/`, `obsidian-bases/`, `obsidian-cli/`, `json-canvas/`,
   `defuddle/` - vendored from
   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) (MIT,

@@ -1,5 +1,6 @@
 ---
 title: {{title}} - Context
+type: project-context
 updated: {{date}}
 tags: [project-context]
 ---

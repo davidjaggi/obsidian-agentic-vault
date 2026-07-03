@@ -8,7 +8,8 @@ Dataview queries stay reliable across the vault.
 
 | Field     | Type        | Notes                                          |
 |-----------|-------------|-------------------------------------------------|
-| `tags`    | list        | At minimum the note's type tag (see below).     |
+| `type`    | string      | Mandatory. Fixed value per note kind - see the per-type tables below. Identifies what the note *is*, independent of `tags`. |
+| `tags`    | list        | Free-form topical/cross-cutting tags. Still carries `daily`/`project`/etc. for the note kinds listed below - `type` is additive, not a replacement for those. |
 | `created` | date        | `YYYY-MM-DD`, set once, never changed.          |
 
 ## Per note type
@@ -17,19 +18,30 @@ Dataview queries stay reliable across the vault.
 | Field | Type | Notes |
 |---|---|---|
 | `title` | string | |
-| `tags` | list | topic tags; add `moc` if this note is a MOC |
+| `type` | string | `note` |
+| `tags` | list | topic tags; add `moc` if this note is a MOC - MOCs are identified by the `moc` tag, not a separate `type` value |
+| `created` | date | |
+
+**Person note** (`50 Notes/`, `90 Meta/Templates/person.md`)
+| Field | Type | Notes |
+|---|---|---|
+| `title` | string | person's name |
+| `type` | string | `person` |
+| `tags` | list | topic tags |
 | `created` | date | |
 
 **Daily note** (`10 Journals/`, `90 Meta/Templates/daily.md`)
 | Field | Type | Notes |
 |---|---|---|
 | `date` | date | used instead of `created`/`title` |
+| `type` | string | `daily` |
 | `tags` | list | always includes `daily` |
 
 **Literature note** (`40 Resources/Literature/`)
 | Field | Type | Notes |
 |---|---|---|
 | `title` | string | |
+| `type` | string | `literature` |
 | `author` | string | |
 | `source` | string | book / article / podcast / video |
 | `url` | string | optional, omit if not applicable |
@@ -40,6 +52,7 @@ Dataview queries stay reliable across the vault.
 | Field | Type | Notes |
 |---|---|---|
 | `title` | string | matches the project/folder name |
+| `type` | string | `project` |
 | `created` | date | |
 | `tags` | list | always includes `project` |
 
@@ -47,6 +60,7 @@ Dataview queries stay reliable across the vault.
 | Field | Type | Notes |
 |---|---|---|
 | `title` | string | |
+| `type` | string | `project-index` |
 | `created` | date | |
 | `status` | string | `active` \| `someday` \| `archived` |
 | `tags` | list | always includes `project` |
@@ -55,6 +69,7 @@ Dataview queries stay reliable across the vault.
 | Field | Type | Notes |
 |---|---|---|
 | `title` | string | `<project> - Context` |
+| `type` | string | `project-context` |
 | `updated` | date | overwritten every interaction, not `created` |
 | `tags` | list | always includes `project-context` |
 
@@ -62,13 +77,23 @@ Dataview queries stay reliable across the vault.
 | Field | Type | Notes |
 |---|---|---|
 | `title` | string | `<project> - Log` |
+| `type` | string | `project-log` |
 | `created` | date | set once |
 | `tags` | list | always includes `project-log` |
 
-**Area / Resource note** (`30 Areas/`, `40 Resources/`)
+**Area note** (`30 Areas/`)
 | Field | Type | Notes |
 |---|---|---|
 | `title` | string | |
+| `type` | string | `area` |
+| `created` | date | |
+| `tags` | list | |
+
+**Resource note** (`40 Resources/`, excluding `Literature/`)
+| Field | Type | Notes |
+|---|---|---|
+| `title` | string | |
+| `type` | string | `resource` |
 | `created` | date | |
 | `tags` | list | |
 

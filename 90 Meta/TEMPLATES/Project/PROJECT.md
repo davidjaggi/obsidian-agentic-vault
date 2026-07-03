@@ -1,5 +1,6 @@
 ---
 title: {{title}}
+type: project
 created: {{date}}
 tags: [project]
 ---
