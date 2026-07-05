@@ -106,6 +106,10 @@ multiple skills for bigger workflows rather than writing one giant skill.
 - `frontmatter/` - canonical YAML frontmatter fields per note type.
 - `vault-lint/` - periodic health-check for broken links, orphan notes,
   missing frontmatter, and stale project context.
+- `weave-trails/` - periodic pass that proposes links between related but
+  unconnected permanent notes and flags emerging hubs for promotion to a
+  MOC (Memex/Zettelkasten-style associative linking - see
+  `50 Notes/Trails - an associative memory layer for the vault.md`).
 - `obsidian-markdown/`, `obsidian-bases/`, `obsidian-cli/`, `json-canvas/`,
   `defuddle/` - vendored from
   [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) (MIT,
