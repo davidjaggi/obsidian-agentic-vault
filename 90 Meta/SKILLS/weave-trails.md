@@ -5,9 +5,12 @@ permanent notes has landed in `50 Notes/` - a maintenance pass to
 strengthen the associative link network, not to file or triage notes.
 Complements `vault-lint`, which finds orphan notes but doesn't fix them.
 
-**Rationale**: `90 Meta/Skills/../../50 Notes/Trails - an associative
-memory layer for the vault.md` - a note that isn't linked to anything
-isn't really part of the system yet, it's just filed.
+**Rationale**: Borrowed from Vannevar Bush's Memex ("trails" of
+associated documents are the valuable artifact, not any single note),
+Luhmann's Zettelkasten (an unlinked slip is functionally forgotten), and
+Andy Matuschek's Evergreen Notes (notes should be densely linked and
+revised over time, not filed once). A note that isn't linked to anything
+isn't really part of the system yet - it's just filed.
 
 **Steps**:
 1. List notes in `50 Notes/` (`type: note` or `type: person`) that have
@@ -32,5 +35,4 @@ isn't really part of the system yet, it's just filed.
 
 **Depends on**: `90 Meta/Skills/frontmatter/SKILL.md`,
 `90 Meta/Skills/create-moc/SKILL.md`,
-`90 Meta/Skills/vault-lint/SKILL.md`,
-`50 Notes/Trails - an associative memory layer for the vault.md`
+`90 Meta/Skills/vault-lint/SKILL.md`

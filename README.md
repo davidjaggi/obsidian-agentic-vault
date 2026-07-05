@@ -99,20 +99,34 @@ multiple skills for bigger workflows rather than writing one giant skill.
 
 ## Bundled skills
 
-- `example-skill/` - inbox triage.
-- `create-moc/` - creating/updating Maps of Content.
+- `example-skill/` - triaging a new inbox note into the right PARA folder.
+- `create-moc/` - creating/updating Maps of Content once a topic has
+  accumulated enough notes.
 - `manage-project/` - the project-note/`INDEX.md`/`CONTEXT.md`/`LOG.md`
-  convention.
-- `frontmatter/` - canonical YAML frontmatter fields per note type.
+  convention for `20 Projects/`.
+- `frontmatter/` - canonical YAML frontmatter fields per note type, so
+  Bases/Dataview queries stay reliable.
 - `vault-lint/` - periodic health-check for broken links, orphan notes,
   missing frontmatter, and stale project context.
-- `weave-trails/` - periodic pass that proposes links between related but
-  unconnected permanent notes and flags emerging hubs for promotion to a
-  MOC (Memex/Zettelkasten-style associative linking - see
-  `50 Notes/Trails - an associative memory layer for the vault.md`).
-- `obsidian-markdown/`, `obsidian-bases/`, `obsidian-cli/`, `json-canvas/`,
-  `defuddle/` - vendored from
-  [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) (MIT,
-  see `90 Meta/Skills/THIRD_PARTY_NOTICES.md`) for Obsidian-flavored
-  Markdown, Bases, the Obsidian CLI, JSON Canvas, and web content
-  extraction.
+- `weave-trails.md` - periodic pass that proposes links between related
+  but unconnected permanent notes and flags emerging hubs for promotion
+  to a MOC (Memex/Zettelkasten/Evergreen-Notes-style associative
+  linking).
+- `update-skills/` - syncing `90 Meta/Skills/` against the public
+  template repo this vault was created from.
+- `update-vault-structure/` - reconciling the vault's shared framework
+  (folders, templates) against the public template repo.
+- `obsidian-markdown/` - Obsidian Flavored Markdown syntax (wikilinks,
+  embeds, callouts, properties).
+- `obsidian-bases/` - creating/editing `.base` files (views, filters,
+  formulas, summaries).
+- `obsidian-cli/` - reading/creating/searching notes and managing
+  plugins/themes from the command line via the Obsidian CLI.
+- `json-canvas/` - creating/editing `.canvas` files (mind maps,
+  flowcharts, visual boards).
+- `defuddle/` - extracting clean markdown from web pages instead of
+  fetching raw HTML.
+
+The last five are vendored from
+[kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) (MIT,
+see `90 Meta/Skills/THIRD_PARTY_NOTICES.md`).
